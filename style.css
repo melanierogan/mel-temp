@@ -1,0 +1,37 @@
+.dot {
+  height: 55px;
+  width: 55px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.low-usage {
+  height: 55px;
+  width: 55px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.medium-usage {
+  height: 55px;
+  width: 55px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.high-usage {
+  height: 55px;
+  width: 55px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.melcolor {
+  background-color: #FFF1E0;
+  border-radius: 2%;
+  padding: 20px;
+}

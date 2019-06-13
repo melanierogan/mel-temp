@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Our amazing Thermostat</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="src/thermostat.js"></script>
+<script src="src/jquery.js"></script>
+
+</head>
+<body>
+<div class="container-fluid" align="center" style="padding:100px;">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col melcolor">
+      <h1 id="temperature"></h1><br>
+      <button type="button" id="increase" class="btn btn-primary">+</button>
+      <button type="button" id="decrease" class="btn btn-primary">-</button>
+      <br><br>
+      <button type="button" id="reset" class="btn btn-success">RESET</button><br><br>
+      <button type="button" id="powersave_on" class="btn btn-outline-info">ON</button>
+      <button type="button" id="powersave_off" class="btn btn-outline-info">OFF</button>
+      <br><br>
+      <p id="powersave_status" class="alert alert-info" role="alert">Powersave mode is ON!</p><br>
+      
+      <h5>Energy Usage</h5><br>
+      <h1 id="dotty" class="dot"></h1><br><br>
+      <h6>temperature in London</h6><br>
+      <h2 id="today"></h2>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>
